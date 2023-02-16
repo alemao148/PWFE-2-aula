@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7B68EE;
+}
+
+.container{
+    min-height: 50vh;
+    margin: 16px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aluno{
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+.aluno__nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aluno__nota{
+    font-size: 120px;
+}
+
+.respostas{
+    width: 95%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nome__aluno{
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    text-align: center;
+}
+
+#aluno__nota{
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    text-align: center;
+}
+
+#adicionar{
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vermelho{
+    background-color: #FF0000;
+}
+
+.verde{
+    background-color: #00FF00;
+}
+
